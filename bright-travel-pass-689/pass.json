@@ -17,8 +17,8 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "E09C40BB8070B69E",
-  "organizationName": "ToriTabi e-きっぷ",
-  "description": "ToriTabi e-きっぷ",
+  "organizationName": "ToriTabi e-Ticket",
+  "description": "ToriTabi e-Ticket",
   "foregroundColor": "rgb(255, 251, 0)",
   "backgroundColor": "rgb(44, 44, 46)",
   "labelColor": "rgb(199, 199, 204)",
@@ -26,7 +26,7 @@
     "headerFields": [
       {
         "key": "h3",
-        "label": "乗車日",
+        "label": "DATE",
         "value": "2026-05-10T02:00:00.000Z",
         "textAlignment": "PKTextAlignmentNatural",
         "dateStyle": "PKDateStyleShort",
@@ -36,67 +36,67 @@
     "primaryFields": [
       {
         "key": "from",
-        "label": "出発駅",
-        "value": "水都開中央"
+        "label": "Departure",
+        "value": "Sayama Airport T1･T2"
       },
       {
         "key": "to",
-        "label": "到着駅",
-        "value": "山波"
+        "label": "Arrival",
+        "value": "Kita-Saida"
       }
     ],
     "secondaryFields": [
       {
         "key": "s1",
-        "label": "ご乗車列車",
-        "value": "特急さやまえあ52号"
+        "label": "TRAIN",
+        "value": "Ltd.Exp. SayamaAir 51"
       },
       {
         "key": "s2",
-        "label": "号車･区分",
-        "value": "2号車指定席"
+        "label": "CARRIAGR NO.",
+        "value": "1"
       },
       {
         "key": "s3",
-        "label": "座席",
-        "value": "12A（窓側）"
+        "label": "SEAT",
+        "value": "6C (Aisle)"
       }
     ],
     "auxiliaryFields": [
       {
         "key": "boards",
-        "label": "発車時刻",
+        "label": "DEP. TIME",
         "value": "9:10"
       },
       {
         "key": "arrives",
-        "label": "到着時刻",
+        "label": "ARR. TIME",
         "value": "11:38"
       }
     ],
     "backFields": [
       {
         "key": "b1",
-        "label": "ご案内",
-        "value": "ご乗車の際は、QRコード読み取り機（赤色）のついた改札･係員のいる改札口にて、下部のQRコードをかざしてご利用ください。",
+        "label": "Information",
+        "value": "To pass the ticket gate, scan your QR code below on the Red coloured scanner of the gate.   If there’re no available gates, show your ticket to the station staff at the gate.",
         "dataDetectorTypes": []
       },
       {
         "key": "b2",
         "label": "",
-        "value": "きっぷの拝見をお願いした場合は、この画面をご提示ください。",
+        "value": "Your tickets may be checked.",
         "dataDetectorTypes": []
       },
       {
         "key": "b3",
         "label": "",
-        "value": "発車時刻･ホームは変更になる場合があります。ご乗車前に発車案内表示をご確認ください。",
+        "value": "Departure time and platform are subject to change. Please check the departure information before boarding.",
         "dataDetectorTypes": []
       }
     ],
     "transitType": "PKTransitTypeGeneric"
   },
-  "logoText": "ToriTabi e-きっぷ",
+  "logoText": "ToriTabi e-Ticket",
   "semantics": {
     "airlineCode": "SK",
     "flightCode": "SK042",
@@ -187,7 +187,7 @@
       "format": "PKBarcodeFormatQR",
       "message": "MR218-A-8427-12C",
       "messageEncoding": "iso-8859-1",
-      "altText": "MR 218 / 12C"
+      "altText": "QR乗車券･特急券"
     }
   ],
   "webServiceURL": "https://example.invalid/passkit",
