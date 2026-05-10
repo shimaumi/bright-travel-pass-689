@@ -18,70 +18,85 @@
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "E09C40BB8070B69E",
   "organizationName": "ToriTabi e-きっぷ",
-  "description": "Apple Wallet pass project",
-  "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(51, 65, 85)",
-  "labelColor": "rgb(203, 213, 225)",
+  "description": "ToriTabi e-きっぷ",
+  "foregroundColor": "rgb(255, 251, 0)",
+  "backgroundColor": "rgb(44, 44, 46)",
+  "labelColor": "rgb(199, 199, 204)",
   "boardingPass": {
     "headerFields": [
       {
-        "key": "h1",
-        "label": "CAR",
-        "value": "2"
-      },
-      {
-        "key": "h2",
-        "label": "SEAT",
-        "value": "12C"
+        "key": "h3",
+        "label": "乗車日",
+        "value": "2026-05-10T02:00:00.000Z",
+        "textAlignment": "PKTextAlignmentNatural",
+        "dateStyle": "PKDateStyleShort",
+        "timeStyle": "PKDateStyleNone"
       }
     ],
     "primaryFields": [
       {
         "key": "from",
-        "label": "Boston",
-        "value": "BOS"
+        "label": "出発駅",
+        "value": "水都開中央"
       },
       {
         "key": "to",
-        "label": "New York",
-        "value": "NYP"
+        "label": "到着駅",
+        "value": "山波"
       }
     ],
     "secondaryFields": [
       {
         "key": "s1",
-        "label": "PASSENGER",
-        "value": "Attendee 8427"
+        "label": "ご乗車列車",
+        "value": "特急さやまえあ52号"
       },
       {
         "key": "s2",
-        "label": "TRAIN",
-        "value": "MR 218"
+        "label": "号車･区分",
+        "value": "2号車指定席"
+      },
+      {
+        "key": "s3",
+        "label": "座席",
+        "value": "12A（窓側）"
       }
     ],
     "auxiliaryFields": [
       {
-        "key": "dep",
-        "label": "BOARDS",
-        "value": "10:37"
+        "key": "boards",
+        "label": "発車時刻",
+        "value": "9:10"
       },
       {
-        "key": "arr",
-        "label": "ARRIVES",
-        "value": "16:47"
+        "key": "arrives",
+        "label": "到着時刻",
+        "value": "11:38"
       }
     ],
     "backFields": [
       {
         "key": "b1",
-        "label": "Notes",
-        "value": "Arrive at the gate at least 30 minutes before departure.",
+        "label": "ご案内",
+        "value": "ご乗車の際は、QRコード読み取り機（赤色）のついた改札･係員のいる改札口にて、下部のQRコードをかざしてご利用ください。",
+        "dataDetectorTypes": []
+      },
+      {
+        "key": "b2",
+        "label": "",
+        "value": "きっぷの拝見をお願いした場合は、この画面をご提示ください。",
+        "dataDetectorTypes": []
+      },
+      {
+        "key": "b3",
+        "label": "",
+        "value": "発車時刻･ホームは変更になる場合があります。ご乗車前に発車案内表示をご確認ください。",
         "dataDetectorTypes": []
       }
     ],
-    "transitType": "PKTransitTypeTrain"
+    "transitType": "PKTransitTypeGeneric"
   },
-  "logoText": "Bright Travel Pass 689",
+  "logoText": "ToriTabi e-きっぷ",
   "semantics": {
     "airlineCode": "SK",
     "flightCode": "SK042",
@@ -107,14 +122,14 @@
     "departureGate": "B14",
     "departureTerminal": "2",
     "departureLocation": {
-      "latitude": 37.6213,
-      "longitude": -122.379
+      "latitude": 37.618972,
+      "longitude": -122.374889
     },
     "destinationGate": "A8",
     "destinationTerminal": "4",
     "destinationLocation": {
-      "latitude": 40.6413,
-      "longitude": -73.7781
+      "latitude": 40.63983,
+      "longitude": -73.77874
     },
     "boardingGroup": "2",
     "boardingSequenceNumber": "038",
@@ -164,7 +179,8 @@
         "seatNumber": "C",
         "seatType": "Window"
       }
-    ]
+    ],
+    "currentBoardingDate": "2026-05-10T01:37:45.492Z"
   },
   "barcodes": [
     {
